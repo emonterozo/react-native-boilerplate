@@ -1,0 +1,16 @@
+{
+  "name": "react-native-boilerplate",
+  "version": "1.0.0",
+  "description": "Script for creating templated React Native Project",
+  "bin": {
+    "react-native-boilerplate": "bin/install.mjs"
+  },
+  "keywords": [],
+  "author": "Eric Monterozo",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1",
+    "shelljs": "^0.8.5"
+  }
+}

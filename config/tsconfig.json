@@ -1,0 +1,11 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      //We will have to add the same thing in babel.config.js
+      "@app/screens": ["./src/screens"],
+      "@app/components": ["./src/components"],
+    }
+  }
+}
