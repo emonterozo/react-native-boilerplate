@@ -83,6 +83,10 @@ if (fs.existsSync(projectPath)) {
   await exec("yarn add @react-navigation/stack react-native-gesture-handler");
   stackNavigatorSpinner.succeed();
 
+  const testingSpinner = ora("Setting up React Native Testing Library...").start();
+  await exec("yarn add -D @testing-library/react-native @types/jest");
+  testingSpinner.succeed();
+  
   // add babel-plugin-module-resolver & copying template
   const templateSpinner = ora("Copying template...").start();
   await exec("yarn add -D babel-plugin-module-resolver");

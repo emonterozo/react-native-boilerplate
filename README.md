@@ -14,6 +14,7 @@ This project script sets up a robust and efficient starting point for your React
 - **@react-navigation:** Integrated navigation setup with @react-navigation/native and @react-navigation/stack.
 - **Gesture Handling:** Smooth gesture handling with react-native-gesture-handler.
 - **TypeScript Support:** Enjoy type safety and better code organization with TypeScript.
+- **React Native Testing Library:** Simplify testing with React Native Testing Library for effective and reliable UI testing.
 
 ## Testing Locally
 
@@ -52,6 +53,8 @@ To test this React Native Boilerplate locally, follow these steps:
 - @commitlint/cli
 - @commitlint/config-conventional
 - babel-plugin-module-resolver
+- @testing-library/react-native
+- @types/jest
 
 ## Getting Started
 
